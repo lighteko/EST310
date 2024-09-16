@@ -1,7 +1,8 @@
 from card import Card
+import random
 
 class Deck:
-    def __init__(self):
+    def __init__(self) -> None:
         self.deck = []
         for shape in ['hearts', 'diamonds', 'clubs', 'spades']:
             for value in range(1, 14):
@@ -10,11 +11,11 @@ class Deck:
         self.deck.append(Card(False))
         self.shuffle_deck()
         
-    def get_deck(self):
+    def get_deck(self) -> list:
         return self.deck
     
-    def shuffle_deck(self):
-        pass
+    def shuffle_deck(self) -> None:
+        random.shuffle(self.deck)
 
     def draw_cards(self, num: int) -> list:
         cards = []
