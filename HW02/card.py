@@ -1,18 +1,7 @@
 class Card:
-    # initializer for the regular cards
     def __init__(self, shape: str, value: int) -> None:
-        if shape == '♥' or shape == '♦':
-            self.color = True
-        else:
-            self.color = False
         self.value = value
         self.shape = shape
-    
-    # initializer for the joker card
-    def __init__(self, color: bool) -> None:
-        self.color = color
-        self.value = 0
-        self.shape = 'JOKER'
         
     def get_shape(self) -> str:
         return self.shape
