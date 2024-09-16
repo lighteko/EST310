@@ -4,7 +4,7 @@ import random
 class Deck:
     def __init__(self) -> None:
         self.deck = []
-        for shape in ['hearts', 'diamonds', 'clubs', 'spades']:
+        for shape in ['♥', '♦', '♣', '♠']:
             for value in range(1, 14):
                 self.deck.append(Card(shape, value))
         self.deck.append(Card(True))
@@ -29,3 +29,4 @@ class Deck:
         for _ in range(num):
             self.deck.pop()
         return True
+    
