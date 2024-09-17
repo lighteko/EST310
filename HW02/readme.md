@@ -1,4 +1,4 @@
-# [EST 310] Welcome to the game: Lose with the Joker
+# [EST 310] Lose with the Joker
 ## Objective:
 You need to reach a score of 100 or throw two Jokers to win.
 
