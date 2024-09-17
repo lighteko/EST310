@@ -5,6 +5,7 @@ You need to reach a score of 100 to win.
 # Rules:
 1. On each turn, you can draw or throw cards from deck.
 2. When you draw the cards, non-number cards have different effects:
+   
 **[Jokers]**: subtract *[(number of Jokers + number of Jacks) * number of cards]* from your score.
               If you have two Jokers in your hand, you lose.
               If you have a Joker but do not have a Jack, you get [2 * number of cards] points off.
