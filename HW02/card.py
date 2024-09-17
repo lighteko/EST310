@@ -18,5 +18,3 @@ class Card:
             value = 'K'
         return str(value)
     
-    def get_color(self) -> bool:
-        return self.color
