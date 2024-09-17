@@ -1,20 +1,23 @@
-# Welcome to the game <Lose with the Joker>
-## You need to reach a score of 100 to win.
-## On each turn, you can draw or throw cards from deck.
-## When you draw the cards, non-number cards have different effects:
-[Jokers]: subtract [(number of Jokers + number of Jacks) * number of cards] from your score.
-        If you have two Jokers in your hand, you lose.
-        If you have a Joker but do not have a Jack, you get [2 * number of cards] points off.
+# Welcome to the game Lose with the Joker
+## Objective:
+You need to reach a score of 100 to win.
+
+# Rules:
+1. On each turn, you can draw or throw cards from deck.
+2. When you draw the cards, non-number cards have different effects:
+**[Jokers]**: subtract *[(number of Jokers + number of Jacks) * number of cards]* from your score.
+              If you have two Jokers in your hand, you lose.
+              If you have a Joker but do not have a Jack, you get [2 * number of cards] points off.
               
-[Jacks]:  subtract [number of cards in your hand] from your score.
+**[Jacks]**:  subtract *[number of cards in your hand]* from your score.
               
-[Kings]:  append [2 * (number of Kings) * number of cards] points.
-        If you have 5 or more kings, you win. 
+**[Kings]**:  append *[2 * (number of Kings) * number of cards]* points.
+              If you have 5 or more kings, you win. 
               
-[Queens]: 2 Queens give you 1 King.
+**[Queens]**: 2 Queens give you 1 King.
               
-[Aces]:   Aces protect you from Jokers and Jacks. If you have at least one Ace in your hand, you get [0.5 * number of cards] points.
-        If you have four Aces and you also have a Joker or Jacks, you get [4 * number of cards] points.
+**[Aces]**:   Aces protect you from Jokers and Jacks. If you have at least one Ace in your hand, you get *[0.5 * number of cards]* points.
+              If you have four Aces and you also have a Joker or Jacks, you get *[4 * number of cards]* points.
 
 ## There are special rules:
 1.  If you have Jokers or Jacks and Kings in your hand at the same time, Kings cannot effect.
