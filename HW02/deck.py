@@ -23,10 +23,9 @@ class Deck:
             cards.append(self.deck.pop())
         return cards
 
-    def throw_cards(self, num: int) -> bool:
-        if num > 5 or num < 1 or num > len(self.deck):
-            return False
+    def throw_cards(self, num: int) -> list:
+        cards = []
         for _ in range(num):
-            self.deck.pop()
-        return True
+            cards.append(self.deck.pop())
+        return cards
     
