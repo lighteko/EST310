@@ -96,8 +96,8 @@ Game made by Heejoon Yi, inspired from the original card game Lose with the Joke
             print("You can throw at most 5 cards per turn.")
             self.throw()
             return
-        elif num > len(self.hand):
-            print("You cannot throw more cards than you have in your hand.")
+        elif num > len(self.deck.get_deck()):
+            print("You cannot throw more cards than you have in your deck.")
             self.throw()
             return
         cards = self.deck.throw_cards(num)
