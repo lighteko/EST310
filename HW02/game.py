@@ -9,8 +9,8 @@ class Game:
         self.thrown = []
         self.threw = False
 
-    def run(self) -> None:
-        print("""
+    def print_message(self) -> None:
+        message = """
 Welcome to the game <Lose with the Joker>
 > You need to reach a score of 100 to win.
 > On each turn, you can draw or throw cards from deck.
@@ -39,7 +39,11 @@ Aces:   Aces protect you from Jokers and Jacks. If you have at least one Ace in 
 7.  If you are run out of cards in the deck and you have not reached 100 points, you lose.
 8.  If you don't have any non-number cards in your hand, you get [number of cards] points.
 9.  If you have non-number cards in your hand but they are not affective, you get [number of cards] points.
-""")
+"""
+        print(message)
+
+    def run(self) -> None:
+        self.print_message()
 
         while not self.stopper:
             self.turn()
