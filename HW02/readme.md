@@ -1,6 +1,6 @@
 # [EST 310] Welcome to the game: Lose with the Joker
 ## Objective:
-You need to reach a score of 100 to win.
+You need to reach a score of 100 or throw two Jokers to win.
 
 # Rules:
 1. On each turn, you can draw or throw cards from deck.
