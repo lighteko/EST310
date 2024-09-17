@@ -3,7 +3,8 @@
 You need to reach a score of 100 or throw two Jokers to win.
 
 # Rules:
-1. On each turn, you can draw or throw cards from deck.
+0. The deck must be shuffled before starting the game.
+1. On each turn, you can draw or throw cards from the deck.
 2. When you draw the cards, non-number cards have different effects:
    
 **[Jokers]**: subtract *[(number of Jokers + number of Jacks) * number of cards]* from your score.
@@ -21,14 +22,14 @@ You need to reach a score of 100 or throw two Jokers to win.
               If you have four Aces and you also have a Joker or Jacks, you get *[4 * number of cards]* points.
 
 ## There are special rules:
-1.  If you have Jokers or Jacks and Kings in your hand at the same time, Kings cannot effect.
+1.  If you have Jokers or Jacks and Kings in your hand at the same time, Kings cannot affect.
 2.  Scores cannot be negative. If the score is negative, it is set to 0.
-3.  You can throw cards at most 5 cards per turn, but you cannot throw more than the number of leftover cards in the deck.
+3.  You can throw at most 5 cards per turn, but you cannot throw more than the number of leftover cards in the deck.
 4.  You can draw at most 15 cards per turn, but you cannot draw more than the number of leftover cards in the deck.
 5.  You must draw after throwing cards.
 6.  If you throw away two Jokers, you win.
-7.  If you are run out of cards in the deck and you have not reached 100 points, you lose.
+7.  If you run out of cards in the deck and you have not reached 100 points, you lose.
 8.  If you don't have any non-number cards in your hand, you get [number of cards] points.
-9.  If you have non-number cards in your hand but they are not affective, you get [number of cards] points.
+9.  If you have non-number cards in your hand but they are not effective, you get [number of cards] points.
 
 Game made by Heejoon Yi, inspired from the original card game Lose with the Joker.
