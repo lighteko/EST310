@@ -1,4 +1,4 @@
-# Welcome to the game Lose with the Joker
+# [EST 310] Welcome to the game: Lose with the Joker
 ## Objective:
 You need to reach a score of 100 to win.
 
@@ -29,3 +29,5 @@ You need to reach a score of 100 to win.
 7.  If you are run out of cards in the deck and you have not reached 100 points, you lose.
 8.  If you don't have any non-number cards in your hand, you get [number of cards] points.
 9.  If you have non-number cards in your hand but they are not affective, you get [number of cards] points.
+
+Game made by Heejoon Yi, inspired from the original card game Lose with the Joker.
