@@ -69,7 +69,12 @@ Game made by Heejoon Yi, inspired from the original card game Lose with the Joke
             print("Thank you for playing!")
 
     def deal(self) -> None:
-        num = int(input("Enter the number of cards you want to draw: "))
+        prompt = input("Enter the number of cards you want to draw: ")
+        if not prompt.isdigit():
+            print("Invalid input. Please enter a number.")
+            self.deal()
+            return
+        num = int(prompt)
         if num == 0:
             print("You must draw at least one card.")
             self.deal()
@@ -87,7 +92,12 @@ Game made by Heejoon Yi, inspired from the original card game Lose with the Joke
         self.threw = False
 
     def throw(self) -> None:
-        num = int(input("Enter the number of cards you want to throw: "))
+        prompt = input("Enter the number of cards you want to throw: ")
+        if not prompt.isdigit():
+            print("Invalid input. Please enter a number.")
+            self.throw()
+            return
+        num = int(prompt)
         if num == 0:
             print("You must throw at least one card.")
             self.throw()
