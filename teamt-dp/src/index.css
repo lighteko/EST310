@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  width: 100vw;
+  height: 95vh;
+}
+
+#root {
+  height: 5vh;
+  width: 100vw;
+  position: relative;
+}
+
+footer {
+  width: 100vw;
+  height: 6vh;
+  background-color: azure;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#camera-button {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  background-color: white;
+  border: 8px #676767 solid;
+  margin-bottom: 7vh;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
