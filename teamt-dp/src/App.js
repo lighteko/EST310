@@ -22,7 +22,7 @@ function App() {
     <footer id="footer">
       {modalState && (
         <Modal
-          src={currQuiz.current.quizes[currQuiz.current.idx]}
+          src={currQuiz.current.quizes[currQuiz.current.idx - 1]}
           setState={setModalState}
         />
       )}
