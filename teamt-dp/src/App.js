@@ -16,7 +16,7 @@ function App() {
   const onClick = () => {
     setModalState(true);
     currQuiz.current.idx++;
-    if (currQuiz.current.idx >= 5) currQuiz.current.idx = 0;
+    if (currQuiz.current.idx >= 5) currQuiz.current.idx = 1;
   };
   return (
     <footer id="footer">
